@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Arora Uniforms crest">
+  <defs>
+    <clipPath id="au-tie"><path d="M28.4 22 H35.6 L37.6 44 L32 50.6 L26.4 44 Z"/></clipPath>
+  </defs>
+  <path d="M32 3 L57 11 V33 C57 47.5 45.5 58 32 62 C18.5 58 7 47.5 7 33 V11 Z" fill="#0E1B33"/>
+  <path d="M32 6.4 L54 13.4 V33 C54 45.6 43.8 55 32 58.6 C20.2 55 10 45.6 10 33 V13.4 Z" fill="none" stroke="#C8A24A" stroke-width="1.1"/>
+  <path d="M18.5 14.5 L32 38.5 L45.5 14.5 Z" fill="#F4F1EA"/>
+  <path d="M18.5 14.5 L32 38.5 L24.6 14.5 Z" fill="#1A2C52"/>
+  <path d="M45.5 14.5 L32 38.5 L39.4 14.5 Z" fill="#1A2C52"/>
+  <path d="M29 15 H35 L36.1 21.6 H27.9 Z" fill="#7A1F2B"/>
+  <path d="M28.4 22 H35.6 L37.6 44 L32 50.6 L26.4 44 Z" fill="#7A1F2B"/>
+  <g clip-path="url(#au-tie)" stroke="#C8A24A" stroke-width="1.5" fill="none">
+    <path d="M20 31 L44 19 M20 39 L44 27 M20 47 L44 35 M20 55 L44 43"/>
+  </g>
+  <circle cx="23.5" cy="46" r="1.5" fill="#C8A24A"/>
+  <circle cx="40.5" cy="46" r="1.5" fill="#C8A24A"/>
+</svg>
