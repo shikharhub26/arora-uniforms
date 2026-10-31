@@ -13,7 +13,13 @@ python3 -m http.server 8080
 # then visit http://localhost:8080
 ```
 
-It also deploys as-is to GitHub Pages, Netlify or any static host.
+## Review it on GitHub Pages
+
+The workflow in `.github/workflows/pages.yml` publishes the site to **https://shikharhub26.github.io/arora-uniforms/** on every push to `main` or the current review branch.
+
+One-time setup: in the repository on GitHub, open **Settings → Pages**, and under *Build and deployment* set **Source** to **GitHub Actions**. The next push (or a manual run of the workflow from the Actions tab) deploys the site within a minute or two.
+
+The site also deploys as-is to Netlify, Vercel or any other static host.
 
 ## What is in the mock-up
 
