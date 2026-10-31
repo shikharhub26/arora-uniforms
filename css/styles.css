@@ -905,3 +905,19 @@ td:first-child { font-family: var(--font-mono); font-weight: 600; }
   .hero-slide--scene .hero-title { font-size: clamp(2.4rem, 1.4rem + 3.6vw, 4.2rem); }
   .hero-slide--scene .hero-lede { max-width: 50ch; }
 }
+
+/* Phone header: shorter sub-line so "Est. 1996" never runs under the buttons */
+.brand-word { overflow: hidden; }
+.brand-sub { overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 479px) {
+  .brand-sub-long { display: none; }
+  .brand-name { font-size: 15.5px; }
+  .brand-sub { font-size: 9px; }
+}
+@media (max-width: 389px) {
+  .brand-name { font-size: 14px; letter-spacing: .03em; }
+  .brand-crest { width: 34px; height: 34px; }
+  .header-actions { gap: 4px; }
+  .icon-btn, .burger { width: 38px; height: 38px; }
+  .header-row { gap: 12px; }
+}
